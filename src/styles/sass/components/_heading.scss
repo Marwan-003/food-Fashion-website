@@ -1,0 +1,14 @@
+.heading{
+  margin-inline: auto;
+  margin-bottom: $heading_margin;
+  margin-top:$heading_margin;
+  .tittle{
+    font-weight: bold;
+    font-size: $xxxxL_size;
+    color: $black;
+  }
+  .description{
+    color: $sub_white;
+    font-size: $normal_size;
+  }
+}

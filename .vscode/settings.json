@@ -1,0 +1,9 @@
+{
+  "tailwindCSS.files.exclude": [
+    "**/*.scss"
+  ],
+  "cSpell.words": [
+    "btns",
+    "imgs"
+  ]
+}

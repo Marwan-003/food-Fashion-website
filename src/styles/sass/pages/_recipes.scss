@@ -1,0 +1,13 @@
+.recipes{
+  .container{
+    .heading{
+      .description{
+        width: 85%;
+        margin-inline: auto
+      }
+    }
+    .cards_holder{
+      @include grid();
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.contact-us{
+  margin-block:$section-margin;
+  .container{
+    overflow: hidden;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    background-color: rgba($light_blue , .4);
+    border-radius: 5rem;
+    .form-wrapper{
+      z-index: 2;
+      background-color: $light_white;
+      border-radius: 2rem;
+      padding: 1em;
+      input[type="email"]{
+        border: none;
+        outline: none;
+        padding-inline: 1em;
+        &::placeholder{
+          opacity: .5;
+        }
+      }
+    }
+    .img-wrapper{
+      position: absolute;
+      max-width: calc(20% + 5rem);
+      z-index: 1;
+      &.dish{
+        right: -8%;
+        bottom: -10%;
+      }
+      &.salad{
+        left: -5%;
+        bottom: -25%;
+        transform: rotate(45deg);
+      }
+    }
+  }
+  
+}

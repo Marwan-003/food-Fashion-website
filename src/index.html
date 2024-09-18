@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Fashion</title>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansita+Swashed:wght@300..900&family=Yellowtail&display=swap" rel="stylesheet">
+  <!-- css  -->
+  <link rel="stylesheet" href="styles/all.min.css">
+  <link rel="stylesheet" href="styles/tailwind.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" href="./images/logo.png">
+</head>
+<body>
+  <!-- landing page  -->
+   <div class="landing-page">
+    <!-- header --> 
+    <div class="header relative">
+      <div class="container mx-auto flex items-center justify-between h-full  ">
+        <div class="logo"> 
+          Food Fashion
+        </div>
+          <div class="menu-bar md:hidden"> <i class="fa-solid fa-bars"></i></div>
+          <div class="links h-full flex ">
+            <ul class="flex">
+              <li><a class="mx-4 h-full flex items-center" href="#"> Home </a></li>
+              <li><a class="mx-4 h-full flex items-center" href="#recipes"> Recipes</a></li>
+              <li><a class="mx-4 h-full flex items-center" href="#blogs"> Blogs </a></li>
+              <li><a class="mx-4 h-full flex items-center" href="#contactUs"> Contact</a></li>
+              <li><a class="mx-4 h-full flex items-center" href="#aboutUs"> About us</a></li>
+            </ul>
+          </div>
+          <div class="social-media flex items-center ">
+            <div class="facebook mx-4"> <i class="fa-brands fa-facebook-f"></i> </div>
+            <div class="twitter mx-4"> <i class="fa-brands fa-twitter"></i> </div>
+            <div class="instagram mx-4"> <i class="fa-brands fa-instagram"></i> </div>
+          </div>
+      </div>
+    </div>
+    <!-- End  header -->
+    <div class="container content mx-auto">
+      <div class="main-content flex h-full flex-col">
+        <div class="product flex">
+          <!-- start products info -->
+          <div class="product_info py-9 flex-1 xl:-pr-8 active">
+            <div class="label flex items-center mb-7 cursor-pointer">
+               <span class="paper_icon mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" x="0" y="0" viewBox="0 0 1.707 1.707" style="enable-background:new 0 0 512 512" xml:space="preserve" fill-rule="evenodd" class=""><g><path d="M1.427 1.42H.28a.02.02 0 0 1-.02-.02v-.145c0-.018.02-.02.04-.027-.05-.017-.04-.003-.04-.12 0-.011.009-.02.019-.02l.076-.005-.086-.057a.02.02 0 0 1-.009-.017V.59a.02.02 0 0 1 .024-.02l.08.016L.263.474A.02.02 0 0 1 .26.46V.306a.02.02 0 0 1 .02-.02h1.148a.02.02 0 0 1 .02.02v.155a.02.02 0 0 1-.005.013l-.098.111.08-.016a.02.02 0 0 1 .023.02v.42a.02.02 0 0 1-.009.017l-.085.057.076.005c.01 0 .018.009.018.02 0 .117.01.103-.039.12.02.006.04.009.04.027V1.4a.02.02 0 0 1-.02.02zM.3 1.38h1.108v-.11l-.068-.023a.02.02 0 0 1 0-.038l.068-.023v-.06l-.116-.007a.02.02 0 0 1-.01-.037l.126-.084V.613l-.113.023C1.275.64 1.263.617 1.275.603l.132-.15V.326H.3v.127l.133.15c.012.015 0 .037-.02.033L.3.613v.385l.126.084a.02.02 0 0 1-.01.037L.3 1.126v.06l.069.023a.02.02 0 0 1 0 .038l-.069.023v.11z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M1.52 1.707H.187a.073.073 0 0 1-.073-.073v-.181c0-.04.033-.073.073-.073H1.52c.04 0 .073.033.073.073v.181c0 .04-.033.073-.073.073zM.187 1.42a.033.033 0 0 0-.033.033v.181c0 .018.015.033.033.033H1.52a.033.033 0 0 0 .033-.033v-.181a.033.033 0 0 0-.033-.033z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M.233 1.608a.02.02 0 0 1-.02-.02v-.09a.02.02 0 0 1 .02-.02h.354c.026 0 .026.04 0 .04H.253v.07a.02.02 0 0 1-.02.02zM1.674 1.625h-.101a.02.02 0 0 1-.02-.02v-.123a.02.02 0 0 1 .02-.02h.101a.02.02 0 0 1 .02.02v.123a.02.02 0 0 1-.02.02zm-.081-.04h.061v-.083h-.061zM.134 1.625H.032a.02.02 0 0 1-.02-.02v-.123a.02.02 0 0 1 .02-.02h.102a.02.02 0 0 1 .02.02v.123a.02.02 0 0 1-.02.02zm-.082-.04h.062v-.083H.052zM1.215.444h-.58c-.025 0-.025-.04 0-.04h.58c.026 0 .026.04 0 .04zm-.65 0H.491c-.026 0-.026-.04 0-.04h.072c.026 0 .027.04 0 .04zM1.215.567H.95c-.026 0-.026-.04 0-.04h.264c.026 0 .026.04 0 .04zm-.329 0H.492c-.026 0-.026-.04 0-.04h.394c.027 0 .027.04 0 .04zM1.262.69H1.17c-.027 0-.027-.04 0-.04h.092c.027 0 .027.04 0 .04zm-.183 0H.444C.418.69.418.65.444.65h.635c.026 0 .026.04 0 .04zM1.316.812H.693c-.027 0-.027-.04 0-.04h.623c.027 0 .027.04 0 .04zM.6.812H.39c-.026 0-.026-.04 0-.04H.6c.026 0 .026.04 0 .04zM1.316.935H.575c-.027 0-.027-.04 0-.04h.741c.027 0 .027.04 0 .04zm-.833 0H.39c-.026 0-.026-.04 0-.04h.093c.026 0 .026.04 0 .04zM1.262 1.057H.964c-.027 0-.027-.04 0-.04h.298c.027 0 .027.04 0 .04zm-.371 0H.444c-.026 0-.026-.04 0-.04h.447c.026 0 .026.04 0 .04zM1.215 1.18h-.082c-.026 0-.026-.04 0-.04h.082c.026 0 .026.04 0 .04zm-.162 0H.492c-.026 0-.026-.04 0-.04h.56c.027 0 .027.04 0 .04zM1.215 1.303H.728c-.026 0-.026-.04 0-.04h.487c.026 0 .026.04 0 .04zm-.56 0H.491c-.026 0-.026-.04 0-.04h.162c.027 0 .027.04 0 .04zM1.52.326H.187A.073.073 0 0 1 .114.254V.073C.114.033.147 0 .187 0H1.52c.04 0 .073.033.073.073v.18c0 .04-.033.073-.073.073zM.187.04a.033.033 0 0 0-.033.033v.18c0 .019.015.033.033.033H1.52a.033.033 0 0 0 .033-.032V.073A.033.033 0 0 0 1.52.04H.187z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M1.674.245h-.101a.02.02 0 0 1-.02-.02V.101a.02.02 0 0 1 .02-.02h.101a.02.02 0 0 1 .02.02v.124a.02.02 0 0 1-.02.02zm-.081-.04h.061V.121h-.061zM.134.245H.032a.02.02 0 0 1-.02-.02V.101a.02.02 0 0 1 .02-.02h.102a.02.02 0 0 1 .02.02v.124a.02.02 0 0 1-.02.02zM.052.205h.062V.121H.052zM1.474.228a.02.02 0 0 1-.02-.02v-.07H1.12c-.026 0-.026-.04 0-.04h.354a.02.02 0 0 1 .02.02v.09a.02.02 0 0 1-.02.02z" fill="#000000" opacity="1" data-original="#000000"></path><path fill="#ffefe1" d="M1.474.228a.02.02 0 0 1-.02-.02v-.07H1.12c-.026 0-.026-.04 0-.04h.354a.02.02 0 0 1 .02.02v.09a.02.02 0 0 1-.02.02zm.079.026V.073A.033.033 0 0 0 1.52.04H.187a.033.033 0 0 0-.033.033v.181c0 .018.015.032.033.032H1.52a.033.033 0 0 0 .033-.032z" opacity="1" data-original="#ffefe1"></path><path fill="#d66c4a" d="M.114.205V.121H.052v.084z" opacity="1" data-original="#d66c4a"></path><path fill="#fed3af" d="M1.407.326H.3v.127l.133.15c.012.015 0 .037-.02.033L.3.613v.385l.126.084a.02.02 0 0 1-.01.037L.3 1.126v.06l.069.023a.02.02 0 0 1 0 .038l-.069.023v.11h1.108v-.11l-.068-.023a.02.02 0 0 1 0-.038l.068-.023v-.06l-.116-.007a.02.02 0 0 1-.01-.037l.126-.084V.613l-.113.023C1.275.64 1.263.617 1.275.603l.132-.15V.326zM1.262.65c.027 0 .027.04 0 .04H1.17c-.027 0-.027-.04 0-.04zm-.57.123h.624c.027 0 .027.04 0 .04H.693c-.027 0-.027-.04 0-.04zM.576.895h.741c.027 0 .027.04 0 .04H.575c-.027 0-.027-.04 0-.04zm.389.122h.298c.027 0 .027.04 0 .04H.964c-.027 0-.027-.04 0-.04zM.95.527h.264c.026 0 .026.04 0 .04H.95c-.026 0-.026-.04 0-.04zm.128.122c.026 0 .026.04 0 .04H.444C.418.69.418.65.444.65zm-.635.368h.447c.026 0 .026.04 0 .04H.444c-.026 0-.026-.04 0-.04zM.483.895c.026 0 .026.04 0 .04H.39c-.026 0-.026-.04 0-.04zm.732-.491c.026 0 .026.04 0 .04h-.58c-.025 0-.025-.04 0-.04zM.39.772H.6c.026 0 .026.04 0 .04H.39c-.026 0-.026-.04 0-.04zM.492.527h.394c.027 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zM.564.404c.026 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zm.489.736c.026 0 .026.04 0 .04H.492c-.026 0-.026-.04 0-.04h.56zm-.325.123h.487c.026 0 .026.04 0 .04H.728c-.026 0-.026-.04 0-.04zm-.236 0h.162c.027 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zm.641-.123h.082c.026 0 .026.04 0 .04h-.082c-.026 0-.026-.04 0-.04z" opacity="1" data-original="#fed3af" class=""></path><path fill="#ffefe1" d="M1.427 1.42H.187a.033.033 0 0 0-.033.033v.181c0 .018.015.033.033.033H1.52a.033.033 0 0 0 .033-.033v-.182a.033.033 0 0 0-.033-.032h-.093zm-1.174.168a.02.02 0 1 1-.04 0v-.09a.02.02 0 0 1 .02-.02h.353c.027 0 .027.04 0 .04H.253v.07z" opacity="1" data-original="#ffefe1"></path><g fill="#d66c4a"><path d="M1.593 1.502v.083h.061v-.083zM.114 1.585v-.083H.052v.083zM1.593.205h.061V.121h-.061z" fill="#d66c4a" opacity="1" data-original="#d66c4a"></path></g></g></svg>
+            </span> Hot Recipes</div>
+            <div class="product_name flex items-center pb-7">Grilled Chicken and Corn Salad</div>
+            <div class="product_des mb-7 leading-7"> This vibrant dish features juicy, grilled chicken breasts paired with sweet, charred corn kernels. Tossed with fresh greens, cherry tomatoes, and a tangy lime vinaigrette, this salad offers a delightful balance of smoky flavors and crisp textures. Perfect for a light and healthy meal, it's as satisfying as it is nutritious.</div>
+            <div class="label_category mb-10 flex items-center w-full gap-9">
+              <div class="label time "> <i class="fa-solid fa-clock mr-2"></i> 30 Mins</div>
+              <div class="label dish"> <i class="fa-solid fa-utensils mr-2"></i> kitchen</div>
+            </div>
+            <div class="recipe_sec mb-7 flex items-center justify-between">
+              <div class="chef flex items-center">
+                <div class="chef_pic mr-4"><img src="./images/chef.jpg" alt="chef"></div>
+                <div class="chef_info ">
+                  <span class="name block">John Smith</span>
+                  <span class="date block">15 March 2022</span>
+                </div>
+              </div>
+              <div class="recipes_btn dark-btn cursor-pointer">
+                View Recipes <i class="fa-solid fa-circle-play ml-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product_info py-9 flex-1 xl:-pr-8">
+            <div class="label flex items-center mb-7 cursor-pointer">
+               <span class="paper_icon mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" x="0" y="0" viewBox="0 0 1.707 1.707" style="enable-background:new 0 0 512 512" xml:space="preserve" fill-rule="evenodd" class=""><g><path d="M1.427 1.42H.28a.02.02 0 0 1-.02-.02v-.145c0-.018.02-.02.04-.027-.05-.017-.04-.003-.04-.12 0-.011.009-.02.019-.02l.076-.005-.086-.057a.02.02 0 0 1-.009-.017V.59a.02.02 0 0 1 .024-.02l.08.016L.263.474A.02.02 0 0 1 .26.46V.306a.02.02 0 0 1 .02-.02h1.148a.02.02 0 0 1 .02.02v.155a.02.02 0 0 1-.005.013l-.098.111.08-.016a.02.02 0 0 1 .023.02v.42a.02.02 0 0 1-.009.017l-.085.057.076.005c.01 0 .018.009.018.02 0 .117.01.103-.039.12.02.006.04.009.04.027V1.4a.02.02 0 0 1-.02.02zM.3 1.38h1.108v-.11l-.068-.023a.02.02 0 0 1 0-.038l.068-.023v-.06l-.116-.007a.02.02 0 0 1-.01-.037l.126-.084V.613l-.113.023C1.275.64 1.263.617 1.275.603l.132-.15V.326H.3v.127l.133.15c.012.015 0 .037-.02.033L.3.613v.385l.126.084a.02.02 0 0 1-.01.037L.3 1.126v.06l.069.023a.02.02 0 0 1 0 .038l-.069.023v.11z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M1.52 1.707H.187a.073.073 0 0 1-.073-.073v-.181c0-.04.033-.073.073-.073H1.52c.04 0 .073.033.073.073v.181c0 .04-.033.073-.073.073zM.187 1.42a.033.033 0 0 0-.033.033v.181c0 .018.015.033.033.033H1.52a.033.033 0 0 0 .033-.033v-.181a.033.033 0 0 0-.033-.033z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M.233 1.608a.02.02 0 0 1-.02-.02v-.09a.02.02 0 0 1 .02-.02h.354c.026 0 .026.04 0 .04H.253v.07a.02.02 0 0 1-.02.02zM1.674 1.625h-.101a.02.02 0 0 1-.02-.02v-.123a.02.02 0 0 1 .02-.02h.101a.02.02 0 0 1 .02.02v.123a.02.02 0 0 1-.02.02zm-.081-.04h.061v-.083h-.061zM.134 1.625H.032a.02.02 0 0 1-.02-.02v-.123a.02.02 0 0 1 .02-.02h.102a.02.02 0 0 1 .02.02v.123a.02.02 0 0 1-.02.02zm-.082-.04h.062v-.083H.052zM1.215.444h-.58c-.025 0-.025-.04 0-.04h.58c.026 0 .026.04 0 .04zm-.65 0H.491c-.026 0-.026-.04 0-.04h.072c.026 0 .027.04 0 .04zM1.215.567H.95c-.026 0-.026-.04 0-.04h.264c.026 0 .026.04 0 .04zm-.329 0H.492c-.026 0-.026-.04 0-.04h.394c.027 0 .027.04 0 .04zM1.262.69H1.17c-.027 0-.027-.04 0-.04h.092c.027 0 .027.04 0 .04zm-.183 0H.444C.418.69.418.65.444.65h.635c.026 0 .026.04 0 .04zM1.316.812H.693c-.027 0-.027-.04 0-.04h.623c.027 0 .027.04 0 .04zM.6.812H.39c-.026 0-.026-.04 0-.04H.6c.026 0 .026.04 0 .04zM1.316.935H.575c-.027 0-.027-.04 0-.04h.741c.027 0 .027.04 0 .04zm-.833 0H.39c-.026 0-.026-.04 0-.04h.093c.026 0 .026.04 0 .04zM1.262 1.057H.964c-.027 0-.027-.04 0-.04h.298c.027 0 .027.04 0 .04zm-.371 0H.444c-.026 0-.026-.04 0-.04h.447c.026 0 .026.04 0 .04zM1.215 1.18h-.082c-.026 0-.026-.04 0-.04h.082c.026 0 .026.04 0 .04zm-.162 0H.492c-.026 0-.026-.04 0-.04h.56c.027 0 .027.04 0 .04zM1.215 1.303H.728c-.026 0-.026-.04 0-.04h.487c.026 0 .026.04 0 .04zm-.56 0H.491c-.026 0-.026-.04 0-.04h.162c.027 0 .027.04 0 .04zM1.52.326H.187A.073.073 0 0 1 .114.254V.073C.114.033.147 0 .187 0H1.52c.04 0 .073.033.073.073v.18c0 .04-.033.073-.073.073zM.187.04a.033.033 0 0 0-.033.033v.18c0 .019.015.033.033.033H1.52a.033.033 0 0 0 .033-.032V.073A.033.033 0 0 0 1.52.04H.187z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M1.674.245h-.101a.02.02 0 0 1-.02-.02V.101a.02.02 0 0 1 .02-.02h.101a.02.02 0 0 1 .02.02v.124a.02.02 0 0 1-.02.02zm-.081-.04h.061V.121h-.061zM.134.245H.032a.02.02 0 0 1-.02-.02V.101a.02.02 0 0 1 .02-.02h.102a.02.02 0 0 1 .02.02v.124a.02.02 0 0 1-.02.02zM.052.205h.062V.121H.052zM1.474.228a.02.02 0 0 1-.02-.02v-.07H1.12c-.026 0-.026-.04 0-.04h.354a.02.02 0 0 1 .02.02v.09a.02.02 0 0 1-.02.02z" fill="#000000" opacity="1" data-original="#000000"></path><path fill="#ffefe1" d="M1.474.228a.02.02 0 0 1-.02-.02v-.07H1.12c-.026 0-.026-.04 0-.04h.354a.02.02 0 0 1 .02.02v.09a.02.02 0 0 1-.02.02zm.079.026V.073A.033.033 0 0 0 1.52.04H.187a.033.033 0 0 0-.033.033v.181c0 .018.015.032.033.032H1.52a.033.033 0 0 0 .033-.032z" opacity="1" data-original="#ffefe1"></path><path fill="#d66c4a" d="M.114.205V.121H.052v.084z" opacity="1" data-original="#d66c4a"></path><path fill="#fed3af" d="M1.407.326H.3v.127l.133.15c.012.015 0 .037-.02.033L.3.613v.385l.126.084a.02.02 0 0 1-.01.037L.3 1.126v.06l.069.023a.02.02 0 0 1 0 .038l-.069.023v.11h1.108v-.11l-.068-.023a.02.02 0 0 1 0-.038l.068-.023v-.06l-.116-.007a.02.02 0 0 1-.01-.037l.126-.084V.613l-.113.023C1.275.64 1.263.617 1.275.603l.132-.15V.326zM1.262.65c.027 0 .027.04 0 .04H1.17c-.027 0-.027-.04 0-.04zm-.57.123h.624c.027 0 .027.04 0 .04H.693c-.027 0-.027-.04 0-.04zM.576.895h.741c.027 0 .027.04 0 .04H.575c-.027 0-.027-.04 0-.04zm.389.122h.298c.027 0 .027.04 0 .04H.964c-.027 0-.027-.04 0-.04zM.95.527h.264c.026 0 .026.04 0 .04H.95c-.026 0-.026-.04 0-.04zm.128.122c.026 0 .026.04 0 .04H.444C.418.69.418.65.444.65zm-.635.368h.447c.026 0 .026.04 0 .04H.444c-.026 0-.026-.04 0-.04zM.483.895c.026 0 .026.04 0 .04H.39c-.026 0-.026-.04 0-.04zm.732-.491c.026 0 .026.04 0 .04h-.58c-.025 0-.025-.04 0-.04zM.39.772H.6c.026 0 .026.04 0 .04H.39c-.026 0-.026-.04 0-.04zM.492.527h.394c.027 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zM.564.404c.026 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zm.489.736c.026 0 .026.04 0 .04H.492c-.026 0-.026-.04 0-.04h.56zm-.325.123h.487c.026 0 .026.04 0 .04H.728c-.026 0-.026-.04 0-.04zm-.236 0h.162c.027 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zm.641-.123h.082c.026 0 .026.04 0 .04h-.082c-.026 0-.026-.04 0-.04z" opacity="1" data-original="#fed3af" class=""></path><path fill="#ffefe1" d="M1.427 1.42H.187a.033.033 0 0 0-.033.033v.181c0 .018.015.033.033.033H1.52a.033.033 0 0 0 .033-.033v-.182a.033.033 0 0 0-.033-.032h-.093zm-1.174.168a.02.02 0 1 1-.04 0v-.09a.02.02 0 0 1 .02-.02h.353c.027 0 .027.04 0 .04H.253v.07z" opacity="1" data-original="#ffefe1"></path><g fill="#d66c4a"><path d="M1.593 1.502v.083h.061v-.083zM.114 1.585v-.083H.052v.083zM1.593.205h.061V.121h-.061z" fill="#d66c4a" opacity="1" data-original="#d66c4a"></path></g></g></svg>
+            </span> Hot Recipes</div>
+            <div class="product_name flex items-center pb-7">Baked chicken wings with tomatoes sauce</div>
+            <div class="product_des mb-7 leading-7"> Indulge in the savory and aromatic flavors of our Baked Chicken Wings, marinated in a rich blend of Asian spices and baked to crispy perfection. Each wing is generously coated in a tangy tomato sauce, adding a vibrant twist to this classic dish. Perfect as a starter or a main course, these wings offer a delicious fusion of East meets West, delivering a mouthwatering experience in every bite.</div>
+            <div class="label_category mb-10 flex items-center w-full gap-9">
+              <div class="label time "> <i class="fa-solid fa-clock mr-2"></i> 30 Mins</div>
+              <div class="label dish"> <i class="fa-solid fa-utensils mr-2"></i> kitchen</div>
+            </div>
+            <div class="recipe_sec mb-7 flex items-center justify-between">
+              <div class="chef flex items-center">
+                <div class="chef_pic mr-4"><img src="./images/chef.jpg" alt="chef"></div>
+                <div class="chef_info ">
+                  <span class="name block">John Smith</span>
+                  <span class="date block">15 March 2022</span>
+                </div>
+              </div>
+              <div class="recipes_btn dark-btn cursor-pointer">
+                View Recipes <i class="fa-solid fa-circle-play ml-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product_info py-9 flex-1 xl:-pr-8">
+            <div class="label flex items-center mb-7 cursor-pointer">
+               <span class="paper_icon mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" x="0" y="0" viewBox="0 0 1.707 1.707" style="enable-background:new 0 0 512 512" xml:space="preserve" fill-rule="evenodd" class=""><g><path d="M1.427 1.42H.28a.02.02 0 0 1-.02-.02v-.145c0-.018.02-.02.04-.027-.05-.017-.04-.003-.04-.12 0-.011.009-.02.019-.02l.076-.005-.086-.057a.02.02 0 0 1-.009-.017V.59a.02.02 0 0 1 .024-.02l.08.016L.263.474A.02.02 0 0 1 .26.46V.306a.02.02 0 0 1 .02-.02h1.148a.02.02 0 0 1 .02.02v.155a.02.02 0 0 1-.005.013l-.098.111.08-.016a.02.02 0 0 1 .023.02v.42a.02.02 0 0 1-.009.017l-.085.057.076.005c.01 0 .018.009.018.02 0 .117.01.103-.039.12.02.006.04.009.04.027V1.4a.02.02 0 0 1-.02.02zM.3 1.38h1.108v-.11l-.068-.023a.02.02 0 0 1 0-.038l.068-.023v-.06l-.116-.007a.02.02 0 0 1-.01-.037l.126-.084V.613l-.113.023C1.275.64 1.263.617 1.275.603l.132-.15V.326H.3v.127l.133.15c.012.015 0 .037-.02.033L.3.613v.385l.126.084a.02.02 0 0 1-.01.037L.3 1.126v.06l.069.023a.02.02 0 0 1 0 .038l-.069.023v.11z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M1.52 1.707H.187a.073.073 0 0 1-.073-.073v-.181c0-.04.033-.073.073-.073H1.52c.04 0 .073.033.073.073v.181c0 .04-.033.073-.073.073zM.187 1.42a.033.033 0 0 0-.033.033v.181c0 .018.015.033.033.033H1.52a.033.033 0 0 0 .033-.033v-.181a.033.033 0 0 0-.033-.033z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M.233 1.608a.02.02 0 0 1-.02-.02v-.09a.02.02 0 0 1 .02-.02h.354c.026 0 .026.04 0 .04H.253v.07a.02.02 0 0 1-.02.02zM1.674 1.625h-.101a.02.02 0 0 1-.02-.02v-.123a.02.02 0 0 1 .02-.02h.101a.02.02 0 0 1 .02.02v.123a.02.02 0 0 1-.02.02zm-.081-.04h.061v-.083h-.061zM.134 1.625H.032a.02.02 0 0 1-.02-.02v-.123a.02.02 0 0 1 .02-.02h.102a.02.02 0 0 1 .02.02v.123a.02.02 0 0 1-.02.02zm-.082-.04h.062v-.083H.052zM1.215.444h-.58c-.025 0-.025-.04 0-.04h.58c.026 0 .026.04 0 .04zm-.65 0H.491c-.026 0-.026-.04 0-.04h.072c.026 0 .027.04 0 .04zM1.215.567H.95c-.026 0-.026-.04 0-.04h.264c.026 0 .026.04 0 .04zm-.329 0H.492c-.026 0-.026-.04 0-.04h.394c.027 0 .027.04 0 .04zM1.262.69H1.17c-.027 0-.027-.04 0-.04h.092c.027 0 .027.04 0 .04zm-.183 0H.444C.418.69.418.65.444.65h.635c.026 0 .026.04 0 .04zM1.316.812H.693c-.027 0-.027-.04 0-.04h.623c.027 0 .027.04 0 .04zM.6.812H.39c-.026 0-.026-.04 0-.04H.6c.026 0 .026.04 0 .04zM1.316.935H.575c-.027 0-.027-.04 0-.04h.741c.027 0 .027.04 0 .04zm-.833 0H.39c-.026 0-.026-.04 0-.04h.093c.026 0 .026.04 0 .04zM1.262 1.057H.964c-.027 0-.027-.04 0-.04h.298c.027 0 .027.04 0 .04zm-.371 0H.444c-.026 0-.026-.04 0-.04h.447c.026 0 .026.04 0 .04zM1.215 1.18h-.082c-.026 0-.026-.04 0-.04h.082c.026 0 .026.04 0 .04zm-.162 0H.492c-.026 0-.026-.04 0-.04h.56c.027 0 .027.04 0 .04zM1.215 1.303H.728c-.026 0-.026-.04 0-.04h.487c.026 0 .026.04 0 .04zm-.56 0H.491c-.026 0-.026-.04 0-.04h.162c.027 0 .027.04 0 .04zM1.52.326H.187A.073.073 0 0 1 .114.254V.073C.114.033.147 0 .187 0H1.52c.04 0 .073.033.073.073v.18c0 .04-.033.073-.073.073zM.187.04a.033.033 0 0 0-.033.033v.18c0 .019.015.033.033.033H1.52a.033.033 0 0 0 .033-.032V.073A.033.033 0 0 0 1.52.04H.187z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M1.674.245h-.101a.02.02 0 0 1-.02-.02V.101a.02.02 0 0 1 .02-.02h.101a.02.02 0 0 1 .02.02v.124a.02.02 0 0 1-.02.02zm-.081-.04h.061V.121h-.061zM.134.245H.032a.02.02 0 0 1-.02-.02V.101a.02.02 0 0 1 .02-.02h.102a.02.02 0 0 1 .02.02v.124a.02.02 0 0 1-.02.02zM.052.205h.062V.121H.052zM1.474.228a.02.02 0 0 1-.02-.02v-.07H1.12c-.026 0-.026-.04 0-.04h.354a.02.02 0 0 1 .02.02v.09a.02.02 0 0 1-.02.02z" fill="#000000" opacity="1" data-original="#000000"></path><path fill="#ffefe1" d="M1.474.228a.02.02 0 0 1-.02-.02v-.07H1.12c-.026 0-.026-.04 0-.04h.354a.02.02 0 0 1 .02.02v.09a.02.02 0 0 1-.02.02zm.079.026V.073A.033.033 0 0 0 1.52.04H.187a.033.033 0 0 0-.033.033v.181c0 .018.015.032.033.032H1.52a.033.033 0 0 0 .033-.032z" opacity="1" data-original="#ffefe1"></path><path fill="#d66c4a" d="M.114.205V.121H.052v.084z" opacity="1" data-original="#d66c4a"></path><path fill="#fed3af" d="M1.407.326H.3v.127l.133.15c.012.015 0 .037-.02.033L.3.613v.385l.126.084a.02.02 0 0 1-.01.037L.3 1.126v.06l.069.023a.02.02 0 0 1 0 .038l-.069.023v.11h1.108v-.11l-.068-.023a.02.02 0 0 1 0-.038l.068-.023v-.06l-.116-.007a.02.02 0 0 1-.01-.037l.126-.084V.613l-.113.023C1.275.64 1.263.617 1.275.603l.132-.15V.326zM1.262.65c.027 0 .027.04 0 .04H1.17c-.027 0-.027-.04 0-.04zm-.57.123h.624c.027 0 .027.04 0 .04H.693c-.027 0-.027-.04 0-.04zM.576.895h.741c.027 0 .027.04 0 .04H.575c-.027 0-.027-.04 0-.04zm.389.122h.298c.027 0 .027.04 0 .04H.964c-.027 0-.027-.04 0-.04zM.95.527h.264c.026 0 .026.04 0 .04H.95c-.026 0-.026-.04 0-.04zm.128.122c.026 0 .026.04 0 .04H.444C.418.69.418.65.444.65zm-.635.368h.447c.026 0 .026.04 0 .04H.444c-.026 0-.026-.04 0-.04zM.483.895c.026 0 .026.04 0 .04H.39c-.026 0-.026-.04 0-.04zm.732-.491c.026 0 .026.04 0 .04h-.58c-.025 0-.025-.04 0-.04zM.39.772H.6c.026 0 .026.04 0 .04H.39c-.026 0-.026-.04 0-.04zM.492.527h.394c.027 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zM.564.404c.026 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zm.489.736c.026 0 .026.04 0 .04H.492c-.026 0-.026-.04 0-.04h.56zm-.325.123h.487c.026 0 .026.04 0 .04H.728c-.026 0-.026-.04 0-.04zm-.236 0h.162c.027 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zm.641-.123h.082c.026 0 .026.04 0 .04h-.082c-.026 0-.026-.04 0-.04z" opacity="1" data-original="#fed3af" class=""></path><path fill="#ffefe1" d="M1.427 1.42H.187a.033.033 0 0 0-.033.033v.181c0 .018.015.033.033.033H1.52a.033.033 0 0 0 .033-.033v-.182a.033.033 0 0 0-.033-.032h-.093zm-1.174.168a.02.02 0 1 1-.04 0v-.09a.02.02 0 0 1 .02-.02h.353c.027 0 .027.04 0 .04H.253v.07z" opacity="1" data-original="#ffefe1"></path><g fill="#d66c4a"><path d="M1.593 1.502v.083h.061v-.083zM.114 1.585v-.083H.052v.083zM1.593.205h.061V.121h-.061z" fill="#d66c4a" opacity="1" data-original="#d66c4a"></path></g></g></svg>
+            </span> Hot Recipes</div>
+            <div class="product_name flex items-center pb-7">Grilled Chicken Salad</div>
+            <div class="product_des mb-7 leading-7"> Experience a burst of freshness with our Grilled Chicken Salad, featuring tender, juicy chicken breast perfectly grilled and served atop a bed of crisp, mixed greens. Accompanied by vibrant cherry tomatoes, crunchy cucumbers, and a sprinkle of herbs, this salad is both hearty and refreshing. Drizzled with a light vinaigrette</div>
+            <div class="label_category mb-10 flex items-center w-full gap-9">
+              <div class="label time "> <i class="fa-solid fa-clock mr-2"></i> 30 Mins</div>
+              <div class="label dish"> <i class="fa-solid fa-utensils mr-2"></i> kitchen</div>
+            </div>
+            <div class="recipe_sec mb-7 flex items-center justify-between">
+              <div class="chef flex items-center">
+                <div class="chef_pic mr-4"><img src="./images/chef.jpg" alt="chef"></div>
+                <div class="chef_info ">
+                  <span class="name block">John Smith</span>
+                  <span class="date block">15 March 2022</span>
+                </div>
+              </div>
+              <div class="recipes_btn dark-btn cursor-pointer">
+                View Recipes <i class="fa-solid fa-circle-play ml-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product_info py-9 flex-1 xl:-pr-8">
+            <div class="label flex items-center mb-7 cursor-pointer">
+               <span class="paper_icon mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" x="0" y="0" viewBox="0 0 1.707 1.707" style="enable-background:new 0 0 512 512" xml:space="preserve" fill-rule="evenodd" class=""><g><path d="M1.427 1.42H.28a.02.02 0 0 1-.02-.02v-.145c0-.018.02-.02.04-.027-.05-.017-.04-.003-.04-.12 0-.011.009-.02.019-.02l.076-.005-.086-.057a.02.02 0 0 1-.009-.017V.59a.02.02 0 0 1 .024-.02l.08.016L.263.474A.02.02 0 0 1 .26.46V.306a.02.02 0 0 1 .02-.02h1.148a.02.02 0 0 1 .02.02v.155a.02.02 0 0 1-.005.013l-.098.111.08-.016a.02.02 0 0 1 .023.02v.42a.02.02 0 0 1-.009.017l-.085.057.076.005c.01 0 .018.009.018.02 0 .117.01.103-.039.12.02.006.04.009.04.027V1.4a.02.02 0 0 1-.02.02zM.3 1.38h1.108v-.11l-.068-.023a.02.02 0 0 1 0-.038l.068-.023v-.06l-.116-.007a.02.02 0 0 1-.01-.037l.126-.084V.613l-.113.023C1.275.64 1.263.617 1.275.603l.132-.15V.326H.3v.127l.133.15c.012.015 0 .037-.02.033L.3.613v.385l.126.084a.02.02 0 0 1-.01.037L.3 1.126v.06l.069.023a.02.02 0 0 1 0 .038l-.069.023v.11z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M1.52 1.707H.187a.073.073 0 0 1-.073-.073v-.181c0-.04.033-.073.073-.073H1.52c.04 0 .073.033.073.073v.181c0 .04-.033.073-.073.073zM.187 1.42a.033.033 0 0 0-.033.033v.181c0 .018.015.033.033.033H1.52a.033.033 0 0 0 .033-.033v-.181a.033.033 0 0 0-.033-.033z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M.233 1.608a.02.02 0 0 1-.02-.02v-.09a.02.02 0 0 1 .02-.02h.354c.026 0 .026.04 0 .04H.253v.07a.02.02 0 0 1-.02.02zM1.674 1.625h-.101a.02.02 0 0 1-.02-.02v-.123a.02.02 0 0 1 .02-.02h.101a.02.02 0 0 1 .02.02v.123a.02.02 0 0 1-.02.02zm-.081-.04h.061v-.083h-.061zM.134 1.625H.032a.02.02 0 0 1-.02-.02v-.123a.02.02 0 0 1 .02-.02h.102a.02.02 0 0 1 .02.02v.123a.02.02 0 0 1-.02.02zm-.082-.04h.062v-.083H.052zM1.215.444h-.58c-.025 0-.025-.04 0-.04h.58c.026 0 .026.04 0 .04zm-.65 0H.491c-.026 0-.026-.04 0-.04h.072c.026 0 .027.04 0 .04zM1.215.567H.95c-.026 0-.026-.04 0-.04h.264c.026 0 .026.04 0 .04zm-.329 0H.492c-.026 0-.026-.04 0-.04h.394c.027 0 .027.04 0 .04zM1.262.69H1.17c-.027 0-.027-.04 0-.04h.092c.027 0 .027.04 0 .04zm-.183 0H.444C.418.69.418.65.444.65h.635c.026 0 .026.04 0 .04zM1.316.812H.693c-.027 0-.027-.04 0-.04h.623c.027 0 .027.04 0 .04zM.6.812H.39c-.026 0-.026-.04 0-.04H.6c.026 0 .026.04 0 .04zM1.316.935H.575c-.027 0-.027-.04 0-.04h.741c.027 0 .027.04 0 .04zm-.833 0H.39c-.026 0-.026-.04 0-.04h.093c.026 0 .026.04 0 .04zM1.262 1.057H.964c-.027 0-.027-.04 0-.04h.298c.027 0 .027.04 0 .04zm-.371 0H.444c-.026 0-.026-.04 0-.04h.447c.026 0 .026.04 0 .04zM1.215 1.18h-.082c-.026 0-.026-.04 0-.04h.082c.026 0 .026.04 0 .04zm-.162 0H.492c-.026 0-.026-.04 0-.04h.56c.027 0 .027.04 0 .04zM1.215 1.303H.728c-.026 0-.026-.04 0-.04h.487c.026 0 .026.04 0 .04zm-.56 0H.491c-.026 0-.026-.04 0-.04h.162c.027 0 .027.04 0 .04zM1.52.326H.187A.073.073 0 0 1 .114.254V.073C.114.033.147 0 .187 0H1.52c.04 0 .073.033.073.073v.18c0 .04-.033.073-.073.073zM.187.04a.033.033 0 0 0-.033.033v.18c0 .019.015.033.033.033H1.52a.033.033 0 0 0 .033-.032V.073A.033.033 0 0 0 1.52.04H.187z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M1.674.245h-.101a.02.02 0 0 1-.02-.02V.101a.02.02 0 0 1 .02-.02h.101a.02.02 0 0 1 .02.02v.124a.02.02 0 0 1-.02.02zm-.081-.04h.061V.121h-.061zM.134.245H.032a.02.02 0 0 1-.02-.02V.101a.02.02 0 0 1 .02-.02h.102a.02.02 0 0 1 .02.02v.124a.02.02 0 0 1-.02.02zM.052.205h.062V.121H.052zM1.474.228a.02.02 0 0 1-.02-.02v-.07H1.12c-.026 0-.026-.04 0-.04h.354a.02.02 0 0 1 .02.02v.09a.02.02 0 0 1-.02.02z" fill="#000000" opacity="1" data-original="#000000"></path><path fill="#ffefe1" d="M1.474.228a.02.02 0 0 1-.02-.02v-.07H1.12c-.026 0-.026-.04 0-.04h.354a.02.02 0 0 1 .02.02v.09a.02.02 0 0 1-.02.02zm.079.026V.073A.033.033 0 0 0 1.52.04H.187a.033.033 0 0 0-.033.033v.181c0 .018.015.032.033.032H1.52a.033.033 0 0 0 .033-.032z" opacity="1" data-original="#ffefe1"></path><path fill="#d66c4a" d="M.114.205V.121H.052v.084z" opacity="1" data-original="#d66c4a"></path><path fill="#fed3af" d="M1.407.326H.3v.127l.133.15c.012.015 0 .037-.02.033L.3.613v.385l.126.084a.02.02 0 0 1-.01.037L.3 1.126v.06l.069.023a.02.02 0 0 1 0 .038l-.069.023v.11h1.108v-.11l-.068-.023a.02.02 0 0 1 0-.038l.068-.023v-.06l-.116-.007a.02.02 0 0 1-.01-.037l.126-.084V.613l-.113.023C1.275.64 1.263.617 1.275.603l.132-.15V.326zM1.262.65c.027 0 .027.04 0 .04H1.17c-.027 0-.027-.04 0-.04zm-.57.123h.624c.027 0 .027.04 0 .04H.693c-.027 0-.027-.04 0-.04zM.576.895h.741c.027 0 .027.04 0 .04H.575c-.027 0-.027-.04 0-.04zm.389.122h.298c.027 0 .027.04 0 .04H.964c-.027 0-.027-.04 0-.04zM.95.527h.264c.026 0 .026.04 0 .04H.95c-.026 0-.026-.04 0-.04zm.128.122c.026 0 .026.04 0 .04H.444C.418.69.418.65.444.65zm-.635.368h.447c.026 0 .026.04 0 .04H.444c-.026 0-.026-.04 0-.04zM.483.895c.026 0 .026.04 0 .04H.39c-.026 0-.026-.04 0-.04zm.732-.491c.026 0 .026.04 0 .04h-.58c-.025 0-.025-.04 0-.04zM.39.772H.6c.026 0 .026.04 0 .04H.39c-.026 0-.026-.04 0-.04zM.492.527h.394c.027 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zM.564.404c.026 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zm.489.736c.026 0 .026.04 0 .04H.492c-.026 0-.026-.04 0-.04h.56zm-.325.123h.487c.026 0 .026.04 0 .04H.728c-.026 0-.026-.04 0-.04zm-.236 0h.162c.027 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zm.641-.123h.082c.026 0 .026.04 0 .04h-.082c-.026 0-.026-.04 0-.04z" opacity="1" data-original="#fed3af" class=""></path><path fill="#ffefe1" d="M1.427 1.42H.187a.033.033 0 0 0-.033.033v.181c0 .018.015.033.033.033H1.52a.033.033 0 0 0 .033-.033v-.182a.033.033 0 0 0-.033-.032h-.093zm-1.174.168a.02.02 0 1 1-.04 0v-.09a.02.02 0 0 1 .02-.02h.353c.027 0 .027.04 0 .04H.253v.07z" opacity="1" data-original="#ffefe1"></path><g fill="#d66c4a"><path d="M1.593 1.502v.083h.061v-.083zM.114 1.585v-.083H.052v.083zM1.593.205h.061V.121h-.061z" fill="#d66c4a" opacity="1" data-original="#d66c4a"></path></g></g></svg>
+            </span> Hot Recipes</div>
+            <div class="product_name flex items-center pb-7">Creamy Root Vegetable Soup</div>
+            <div class="product_des mb-7 leading-7">Warm up with a comforting bowl of Creamy Root Vegetable Soup, a rich blend of seasonal root vegetables simmered to perfection. This velvety soup combines the earthy flavors of carrots, parsnips, and sweet potatoes, all pureed into a smooth, creamy texture. Infused with aromatic herbs and a hint of garlic, it’s a nourishing and flavorful dish that’s perfect for cozy evenings or as a hearty starter.</div>
+            <div class="label_category mb-10 flex items-center w-full gap-9">
+              <div class="label time "> <i class="fa-solid fa-clock mr-2"></i> 30 Mins</div>
+              <div class="label dish"> <i class="fa-solid fa-utensils mr-2"></i> kitchen</div>
+            </div>
+            <div class="recipe_sec mb-7 flex items-center justify-between">
+              <div class="chef flex items-center">
+                <div class="chef_pic mr-4"><img src="./images/chef.jpg" alt="chef"></div>
+                <div class="chef_info ">
+                  <span class="name block">John Smith</span>
+                  <span class="date block">15 March 2022</span>
+                </div>
+              </div>
+              <div class="recipes_btn dark-btn cursor-pointer">
+                View Recipes <i class="fa-solid fa-circle-play ml-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product_info py-9 flex-1 xl:-pr-8">
+            <div class="label flex items-center mb-7 cursor-pointer">
+               <span class="paper_icon mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" x="0" y="0" viewBox="0 0 1.707 1.707" style="enable-background:new 0 0 512 512" xml:space="preserve" fill-rule="evenodd" class=""><g><path d="M1.427 1.42H.28a.02.02 0 0 1-.02-.02v-.145c0-.018.02-.02.04-.027-.05-.017-.04-.003-.04-.12 0-.011.009-.02.019-.02l.076-.005-.086-.057a.02.02 0 0 1-.009-.017V.59a.02.02 0 0 1 .024-.02l.08.016L.263.474A.02.02 0 0 1 .26.46V.306a.02.02 0 0 1 .02-.02h1.148a.02.02 0 0 1 .02.02v.155a.02.02 0 0 1-.005.013l-.098.111.08-.016a.02.02 0 0 1 .023.02v.42a.02.02 0 0 1-.009.017l-.085.057.076.005c.01 0 .018.009.018.02 0 .117.01.103-.039.12.02.006.04.009.04.027V1.4a.02.02 0 0 1-.02.02zM.3 1.38h1.108v-.11l-.068-.023a.02.02 0 0 1 0-.038l.068-.023v-.06l-.116-.007a.02.02 0 0 1-.01-.037l.126-.084V.613l-.113.023C1.275.64 1.263.617 1.275.603l.132-.15V.326H.3v.127l.133.15c.012.015 0 .037-.02.033L.3.613v.385l.126.084a.02.02 0 0 1-.01.037L.3 1.126v.06l.069.023a.02.02 0 0 1 0 .038l-.069.023v.11z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M1.52 1.707H.187a.073.073 0 0 1-.073-.073v-.181c0-.04.033-.073.073-.073H1.52c.04 0 .073.033.073.073v.181c0 .04-.033.073-.073.073zM.187 1.42a.033.033 0 0 0-.033.033v.181c0 .018.015.033.033.033H1.52a.033.033 0 0 0 .033-.033v-.181a.033.033 0 0 0-.033-.033z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M.233 1.608a.02.02 0 0 1-.02-.02v-.09a.02.02 0 0 1 .02-.02h.354c.026 0 .026.04 0 .04H.253v.07a.02.02 0 0 1-.02.02zM1.674 1.625h-.101a.02.02 0 0 1-.02-.02v-.123a.02.02 0 0 1 .02-.02h.101a.02.02 0 0 1 .02.02v.123a.02.02 0 0 1-.02.02zm-.081-.04h.061v-.083h-.061zM.134 1.625H.032a.02.02 0 0 1-.02-.02v-.123a.02.02 0 0 1 .02-.02h.102a.02.02 0 0 1 .02.02v.123a.02.02 0 0 1-.02.02zm-.082-.04h.062v-.083H.052zM1.215.444h-.58c-.025 0-.025-.04 0-.04h.58c.026 0 .026.04 0 .04zm-.65 0H.491c-.026 0-.026-.04 0-.04h.072c.026 0 .027.04 0 .04zM1.215.567H.95c-.026 0-.026-.04 0-.04h.264c.026 0 .026.04 0 .04zm-.329 0H.492c-.026 0-.026-.04 0-.04h.394c.027 0 .027.04 0 .04zM1.262.69H1.17c-.027 0-.027-.04 0-.04h.092c.027 0 .027.04 0 .04zm-.183 0H.444C.418.69.418.65.444.65h.635c.026 0 .026.04 0 .04zM1.316.812H.693c-.027 0-.027-.04 0-.04h.623c.027 0 .027.04 0 .04zM.6.812H.39c-.026 0-.026-.04 0-.04H.6c.026 0 .026.04 0 .04zM1.316.935H.575c-.027 0-.027-.04 0-.04h.741c.027 0 .027.04 0 .04zm-.833 0H.39c-.026 0-.026-.04 0-.04h.093c.026 0 .026.04 0 .04zM1.262 1.057H.964c-.027 0-.027-.04 0-.04h.298c.027 0 .027.04 0 .04zm-.371 0H.444c-.026 0-.026-.04 0-.04h.447c.026 0 .026.04 0 .04zM1.215 1.18h-.082c-.026 0-.026-.04 0-.04h.082c.026 0 .026.04 0 .04zm-.162 0H.492c-.026 0-.026-.04 0-.04h.56c.027 0 .027.04 0 .04zM1.215 1.303H.728c-.026 0-.026-.04 0-.04h.487c.026 0 .026.04 0 .04zm-.56 0H.491c-.026 0-.026-.04 0-.04h.162c.027 0 .027.04 0 .04zM1.52.326H.187A.073.073 0 0 1 .114.254V.073C.114.033.147 0 .187 0H1.52c.04 0 .073.033.073.073v.18c0 .04-.033.073-.073.073zM.187.04a.033.033 0 0 0-.033.033v.18c0 .019.015.033.033.033H1.52a.033.033 0 0 0 .033-.032V.073A.033.033 0 0 0 1.52.04H.187z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M1.674.245h-.101a.02.02 0 0 1-.02-.02V.101a.02.02 0 0 1 .02-.02h.101a.02.02 0 0 1 .02.02v.124a.02.02 0 0 1-.02.02zm-.081-.04h.061V.121h-.061zM.134.245H.032a.02.02 0 0 1-.02-.02V.101a.02.02 0 0 1 .02-.02h.102a.02.02 0 0 1 .02.02v.124a.02.02 0 0 1-.02.02zM.052.205h.062V.121H.052zM1.474.228a.02.02 0 0 1-.02-.02v-.07H1.12c-.026 0-.026-.04 0-.04h.354a.02.02 0 0 1 .02.02v.09a.02.02 0 0 1-.02.02z" fill="#000000" opacity="1" data-original="#000000"></path><path fill="#ffefe1" d="M1.474.228a.02.02 0 0 1-.02-.02v-.07H1.12c-.026 0-.026-.04 0-.04h.354a.02.02 0 0 1 .02.02v.09a.02.02 0 0 1-.02.02zm.079.026V.073A.033.033 0 0 0 1.52.04H.187a.033.033 0 0 0-.033.033v.181c0 .018.015.032.033.032H1.52a.033.033 0 0 0 .033-.032z" opacity="1" data-original="#ffefe1"></path><path fill="#d66c4a" d="M.114.205V.121H.052v.084z" opacity="1" data-original="#d66c4a"></path><path fill="#fed3af" d="M1.407.326H.3v.127l.133.15c.012.015 0 .037-.02.033L.3.613v.385l.126.084a.02.02 0 0 1-.01.037L.3 1.126v.06l.069.023a.02.02 0 0 1 0 .038l-.069.023v.11h1.108v-.11l-.068-.023a.02.02 0 0 1 0-.038l.068-.023v-.06l-.116-.007a.02.02 0 0 1-.01-.037l.126-.084V.613l-.113.023C1.275.64 1.263.617 1.275.603l.132-.15V.326zM1.262.65c.027 0 .027.04 0 .04H1.17c-.027 0-.027-.04 0-.04zm-.57.123h.624c.027 0 .027.04 0 .04H.693c-.027 0-.027-.04 0-.04zM.576.895h.741c.027 0 .027.04 0 .04H.575c-.027 0-.027-.04 0-.04zm.389.122h.298c.027 0 .027.04 0 .04H.964c-.027 0-.027-.04 0-.04zM.95.527h.264c.026 0 .026.04 0 .04H.95c-.026 0-.026-.04 0-.04zm.128.122c.026 0 .026.04 0 .04H.444C.418.69.418.65.444.65zm-.635.368h.447c.026 0 .026.04 0 .04H.444c-.026 0-.026-.04 0-.04zM.483.895c.026 0 .026.04 0 .04H.39c-.026 0-.026-.04 0-.04zm.732-.491c.026 0 .026.04 0 .04h-.58c-.025 0-.025-.04 0-.04zM.39.772H.6c.026 0 .026.04 0 .04H.39c-.026 0-.026-.04 0-.04zM.492.527h.394c.027 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zM.564.404c.026 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zm.489.736c.026 0 .026.04 0 .04H.492c-.026 0-.026-.04 0-.04h.56zm-.325.123h.487c.026 0 .026.04 0 .04H.728c-.026 0-.026-.04 0-.04zm-.236 0h.162c.027 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zm.641-.123h.082c.026 0 .026.04 0 .04h-.082c-.026 0-.026-.04 0-.04z" opacity="1" data-original="#fed3af" class=""></path><path fill="#ffefe1" d="M1.427 1.42H.187a.033.033 0 0 0-.033.033v.181c0 .018.015.033.033.033H1.52a.033.033 0 0 0 .033-.033v-.182a.033.033 0 0 0-.033-.032h-.093zm-1.174.168a.02.02 0 1 1-.04 0v-.09a.02.02 0 0 1 .02-.02h.353c.027 0 .027.04 0 .04H.253v.07z" opacity="1" data-original="#ffefe1"></path><g fill="#d66c4a"><path d="M1.593 1.502v.083h.061v-.083zM.114 1.585v-.083H.052v.083zM1.593.205h.061V.121h-.061z" fill="#d66c4a" opacity="1" data-original="#d66c4a"></path></g></g></svg>
+            </span> Hot Recipes</div>
+            <div class="product_name flex items-center pb-7">Fresh vegetable salad</div>
+            <div class="product_des mb-7 leading-7">Delight in the crisp, vibrant flavors of our Fresh Vegetable Salad. A colorful medley of garden-fresh vegetables, including crunchy cucumbers, juicy tomatoes, and crisp bell peppers, all tossed together with a light, zesty dressing. This salad is a refreshing and healthy option, perfect as a side dish or a light meal, delivering a burst of freshness in every bite.</div>
+            <div class="label_category mb-10 flex items-center w-full gap-9">
+              <div class="label time "> <i class="fa-solid fa-clock mr-2"></i> 30 Mins</div>
+              <div class="label dish"> <i class="fa-solid fa-utensils mr-2"></i> kitchen</div>
+            </div>
+            <div class="recipe_sec mb-7 flex items-center justify-between">
+              <div class="chef flex items-center">
+                <div class="chef_pic mr-4"><img src="./images/chef.jpg" alt="chef"></div>
+                <div class="chef_info ">
+                  <span class="name block">John Smith</span>
+                  <span class="date block">15 March 2022</span>
+                </div>
+              </div>
+              <div class="recipes_btn cursor-pointer dark-btn ">
+                View Recipes <i class="fa-solid fa-circle-play ml-1"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product_info py-9 flex-1 xl:-pr-8">
+            <div class="label flex items-center mb-7 cursor-pointer">
+               <span class="paper_icon mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" x="0" y="0" viewBox="0 0 1.707 1.707" style="enable-background:new 0 0 512 512" xml:space="preserve" fill-rule="evenodd" class=""><g><path d="M1.427 1.42H.28a.02.02 0 0 1-.02-.02v-.145c0-.018.02-.02.04-.027-.05-.017-.04-.003-.04-.12 0-.011.009-.02.019-.02l.076-.005-.086-.057a.02.02 0 0 1-.009-.017V.59a.02.02 0 0 1 .024-.02l.08.016L.263.474A.02.02 0 0 1 .26.46V.306a.02.02 0 0 1 .02-.02h1.148a.02.02 0 0 1 .02.02v.155a.02.02 0 0 1-.005.013l-.098.111.08-.016a.02.02 0 0 1 .023.02v.42a.02.02 0 0 1-.009.017l-.085.057.076.005c.01 0 .018.009.018.02 0 .117.01.103-.039.12.02.006.04.009.04.027V1.4a.02.02 0 0 1-.02.02zM.3 1.38h1.108v-.11l-.068-.023a.02.02 0 0 1 0-.038l.068-.023v-.06l-.116-.007a.02.02 0 0 1-.01-.037l.126-.084V.613l-.113.023C1.275.64 1.263.617 1.275.603l.132-.15V.326H.3v.127l.133.15c.012.015 0 .037-.02.033L.3.613v.385l.126.084a.02.02 0 0 1-.01.037L.3 1.126v.06l.069.023a.02.02 0 0 1 0 .038l-.069.023v.11z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M1.52 1.707H.187a.073.073 0 0 1-.073-.073v-.181c0-.04.033-.073.073-.073H1.52c.04 0 .073.033.073.073v.181c0 .04-.033.073-.073.073zM.187 1.42a.033.033 0 0 0-.033.033v.181c0 .018.015.033.033.033H1.52a.033.033 0 0 0 .033-.033v-.181a.033.033 0 0 0-.033-.033z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M.233 1.608a.02.02 0 0 1-.02-.02v-.09a.02.02 0 0 1 .02-.02h.354c.026 0 .026.04 0 .04H.253v.07a.02.02 0 0 1-.02.02zM1.674 1.625h-.101a.02.02 0 0 1-.02-.02v-.123a.02.02 0 0 1 .02-.02h.101a.02.02 0 0 1 .02.02v.123a.02.02 0 0 1-.02.02zm-.081-.04h.061v-.083h-.061zM.134 1.625H.032a.02.02 0 0 1-.02-.02v-.123a.02.02 0 0 1 .02-.02h.102a.02.02 0 0 1 .02.02v.123a.02.02 0 0 1-.02.02zm-.082-.04h.062v-.083H.052zM1.215.444h-.58c-.025 0-.025-.04 0-.04h.58c.026 0 .026.04 0 .04zm-.65 0H.491c-.026 0-.026-.04 0-.04h.072c.026 0 .027.04 0 .04zM1.215.567H.95c-.026 0-.026-.04 0-.04h.264c.026 0 .026.04 0 .04zm-.329 0H.492c-.026 0-.026-.04 0-.04h.394c.027 0 .027.04 0 .04zM1.262.69H1.17c-.027 0-.027-.04 0-.04h.092c.027 0 .027.04 0 .04zm-.183 0H.444C.418.69.418.65.444.65h.635c.026 0 .026.04 0 .04zM1.316.812H.693c-.027 0-.027-.04 0-.04h.623c.027 0 .027.04 0 .04zM.6.812H.39c-.026 0-.026-.04 0-.04H.6c.026 0 .026.04 0 .04zM1.316.935H.575c-.027 0-.027-.04 0-.04h.741c.027 0 .027.04 0 .04zm-.833 0H.39c-.026 0-.026-.04 0-.04h.093c.026 0 .026.04 0 .04zM1.262 1.057H.964c-.027 0-.027-.04 0-.04h.298c.027 0 .027.04 0 .04zm-.371 0H.444c-.026 0-.026-.04 0-.04h.447c.026 0 .026.04 0 .04zM1.215 1.18h-.082c-.026 0-.026-.04 0-.04h.082c.026 0 .026.04 0 .04zm-.162 0H.492c-.026 0-.026-.04 0-.04h.56c.027 0 .027.04 0 .04zM1.215 1.303H.728c-.026 0-.026-.04 0-.04h.487c.026 0 .026.04 0 .04zm-.56 0H.491c-.026 0-.026-.04 0-.04h.162c.027 0 .027.04 0 .04zM1.52.326H.187A.073.073 0 0 1 .114.254V.073C.114.033.147 0 .187 0H1.52c.04 0 .073.033.073.073v.18c0 .04-.033.073-.073.073zM.187.04a.033.033 0 0 0-.033.033v.18c0 .019.015.033.033.033H1.52a.033.033 0 0 0 .033-.032V.073A.033.033 0 0 0 1.52.04H.187z" fill="#000000" opacity="1" data-original="#000000"></path><path d="M1.674.245h-.101a.02.02 0 0 1-.02-.02V.101a.02.02 0 0 1 .02-.02h.101a.02.02 0 0 1 .02.02v.124a.02.02 0 0 1-.02.02zm-.081-.04h.061V.121h-.061zM.134.245H.032a.02.02 0 0 1-.02-.02V.101a.02.02 0 0 1 .02-.02h.102a.02.02 0 0 1 .02.02v.124a.02.02 0 0 1-.02.02zM.052.205h.062V.121H.052zM1.474.228a.02.02 0 0 1-.02-.02v-.07H1.12c-.026 0-.026-.04 0-.04h.354a.02.02 0 0 1 .02.02v.09a.02.02 0 0 1-.02.02z" fill="#000000" opacity="1" data-original="#000000"></path><path fill="#ffefe1" d="M1.474.228a.02.02 0 0 1-.02-.02v-.07H1.12c-.026 0-.026-.04 0-.04h.354a.02.02 0 0 1 .02.02v.09a.02.02 0 0 1-.02.02zm.079.026V.073A.033.033 0 0 0 1.52.04H.187a.033.033 0 0 0-.033.033v.181c0 .018.015.032.033.032H1.52a.033.033 0 0 0 .033-.032z" opacity="1" data-original="#ffefe1"></path><path fill="#d66c4a" d="M.114.205V.121H.052v.084z" opacity="1" data-original="#d66c4a"></path><path fill="#fed3af" d="M1.407.326H.3v.127l.133.15c.012.015 0 .037-.02.033L.3.613v.385l.126.084a.02.02 0 0 1-.01.037L.3 1.126v.06l.069.023a.02.02 0 0 1 0 .038l-.069.023v.11h1.108v-.11l-.068-.023a.02.02 0 0 1 0-.038l.068-.023v-.06l-.116-.007a.02.02 0 0 1-.01-.037l.126-.084V.613l-.113.023C1.275.64 1.263.617 1.275.603l.132-.15V.326zM1.262.65c.027 0 .027.04 0 .04H1.17c-.027 0-.027-.04 0-.04zm-.57.123h.624c.027 0 .027.04 0 .04H.693c-.027 0-.027-.04 0-.04zM.576.895h.741c.027 0 .027.04 0 .04H.575c-.027 0-.027-.04 0-.04zm.389.122h.298c.027 0 .027.04 0 .04H.964c-.027 0-.027-.04 0-.04zM.95.527h.264c.026 0 .026.04 0 .04H.95c-.026 0-.026-.04 0-.04zm.128.122c.026 0 .026.04 0 .04H.444C.418.69.418.65.444.65zm-.635.368h.447c.026 0 .026.04 0 .04H.444c-.026 0-.026-.04 0-.04zM.483.895c.026 0 .026.04 0 .04H.39c-.026 0-.026-.04 0-.04zm.732-.491c.026 0 .026.04 0 .04h-.58c-.025 0-.025-.04 0-.04zM.39.772H.6c.026 0 .026.04 0 .04H.39c-.026 0-.026-.04 0-.04zM.492.527h.394c.027 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zM.564.404c.026 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zm.489.736c.026 0 .026.04 0 .04H.492c-.026 0-.026-.04 0-.04h.56zm-.325.123h.487c.026 0 .026.04 0 .04H.728c-.026 0-.026-.04 0-.04zm-.236 0h.162c.027 0 .027.04 0 .04H.492c-.026 0-.026-.04 0-.04zm.641-.123h.082c.026 0 .026.04 0 .04h-.082c-.026 0-.026-.04 0-.04z" opacity="1" data-original="#fed3af" class=""></path><path fill="#ffefe1" d="M1.427 1.42H.187a.033.033 0 0 0-.033.033v.181c0 .018.015.033.033.033H1.52a.033.033 0 0 0 .033-.033v-.182a.033.033 0 0 0-.033-.032h-.093zm-1.174.168a.02.02 0 1 1-.04 0v-.09a.02.02 0 0 1 .02-.02h.353c.027 0 .027.04 0 .04H.253v.07z" opacity="1" data-original="#ffefe1"></path><g fill="#d66c4a"><path d="M1.593 1.502v.083h.061v-.083zM.114 1.585v-.083H.052v.083zM1.593.205h.061V.121h-.061z" fill="#d66c4a" opacity="1" data-original="#d66c4a"></path></g></g></svg>
+            </span> Hot Recipes</div>
+            <div class="product_name flex items-center pb-7">Pizza With Tomatoes Basil And Cheese</div>
+            <div class="product_des mb-7 leading-7"> Savor the simplicity and freshness of our Pizza with Tomatoes, Basil, and Cheese. This classic combination features a golden, crispy crust topped with juicy, vine-ripened tomatoes, fragrant basil leaves, and a generous layer of melted mozzarella cheese. Baked to perfection, every slice offers a delightful harmony of flavors, making it a timeless favorite for pizza lovers.</div>
+            <div class="label_category mb-10 flex items-center w-full gap-9">
+              <div class="label time "> <i class="fa-solid fa-clock mr-2"></i> 30 Mins</div>
+              <div class="label dish"> <i class="fa-solid fa-utensils mr-2"></i> kitchen</div>
+            </div>
+            <div class="recipe_sec mb-7 flex items-center justify-between">
+              <div class="chef flex items-center">
+                <div class="chef_pic mr-4"><img src="./images/chef.jpg" alt="chef"></div>
+                <div class="chef_info ">
+                  <span class="name block">John Smith</span>
+                  <span class="date block">15 March 2022</span>
+                </div>
+              </div>
+              <div class="recipes_btn cursor-pointer dark-btn">
+                View Recipes <i class="fa-solid fa-circle-play ml-1"></i>
+              </div>
+            </div>
+          </div>
+          <!-- end products info -->
+          <div class="product_prev hidden flex-1 md:flex items-center ">
+            <div class="product_img flex items-center justify-center ml-auto">
+              <img class="active" src="images/1.PNG" alt="img">
+              <img src="images/2.PNG" alt="img">
+              <img src="images/3.PNG" alt="img">
+              <img src="images/4.PNG" alt="img">
+              <img src="images/5.PNG" alt="img">
+              <img src="images/6.PNG" alt="img">
+            
+            </div>
+          </div>
+        </div>
+        <div class="slider flex-1 flex justify-center">
+          <div class="prev arrow cursor-pointer"><i class="fa-solid fa-caret-left"></i></div>
+          <div class="next arrow cursor-pointer"><i class="fa-solid fa-caret-right"></i></div>
+          <div class="slider_imgs">
+            <div class="img" style="--i:6">
+              <img src="./images/1.PNG" alt="">
+            </div>
+            <div class="img" style="--i:5">
+              <img src="./images/2.PNG" alt="">
+            </div>
+            <div class="img" style="--i:4">
+              <img src="./images/3.PNG" alt="">
+            </div>
+            <div class="img" style="--i:3">
+              <img src="./images/4.PNG" alt="">
+            </div>
+            <div class="img" style="--i:2">
+              <img src="./images/5.PNG" alt="">
+            </div>
+            <div class="img" style="--i:1">
+              <img src="./images/6.PNG" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+    <!-- end landing page  -->
+  <!-- categories -->
+     <div class="categories">
+      <div class="container mx-auto">
+        <div class="categories_head flex items-center justify-between">
+          <div class="tittle">Categories</div>
+          <div class="btn cursor-pointer">View All Categories</div>
+        </div>
+        <div class="categories_info flex justify-around flex-wrap gap-4">
+          <div class="box px-10 py-5" style="--color:228, 223, 217;">
+            <div class="img_holder text-center"><img src="./images/breakfast.png" alt=""></div>
+            <p class="text-center mt-10" >Breakfast</p>
+          </div>
+          <div class="box px-10 py-5" style="--color:90, 250, 93;">
+            <div class="img_holder text-center" ><img src="./images/vegan.png" alt=""></div>
+            <p class="text-center mt-10">Vegan</p>
+          </div>
+          <div class="box px-10 py-5 "  style="--color: 255, 118, 108;">
+            <div class="img_holder text-center" ><img src="./images/meat.png" alt=""></div>
+            <p class="text-center mt-10">Meat</p>
+          </div>
+          <div class="box px-10 py-5" style="--color: 246, 220, 165;">
+            <div class="img_holder text-center" ><img src="./images/dessert.png" alt=""></div>
+            <p class="text-center mt-10">Dessert</p>
+          </div>
+          <div class="box px-10 py-5" style="--color: 253, 186, 61;">
+            <div class="img_holder text-center"  ><img src="./images/lunch.png" alt=""></div>
+            <p class="text-center mt-10">Lunch</p>
+          </div>
+          <div class="box px-10 py-5" style="--color: 193, 67, 25;">
+            <div class="img_holder text-center" ><img src="./images/chocolate.png" alt=""></div>
+            <p class="text-center mt-10">Chocolate</p>
+          </div>
+        </div>
+      </div>
+     </div>
+    <!-- End categories -->
+  <!-- recipes -->
+      <div class="recipes" id="recipes">
+        <div class="container mx-auto">
+          <div class="heading text-center lg:w-max ">
+            <h3 class="tittle mb-5">Simple and tasty recipes</h3>
+            <p class="description">Explore quick and delicious recipes, including spicy chicken wings and more. Prefect for easy ,flavorful meals!</p>
+          </div>
+          <div class="cards_holder">
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-1.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Creamy pomegranate with sweet souse</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> Dessert</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-2.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Cheesy Spaghetti with tomato souse</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> Lunch</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-3.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">fresh salad with cantaloupe melon prosciutto sof</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-4.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Harvest Salad with Pumpkin and Mushrooms</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-5.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle"> mediterranean diet dish with mix of greek salad </p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-6.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Zesty Mediterranean Tuna Pasta Salad Delight </p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-7.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Mediterranean Salad with Olives and Cheese</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-8.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Roasted Beet and Potato Salad Medley</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-9.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Grilled Octopus Salad with Tomatoes and Greens</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    <!-- End recipes -->
+  <!-- information -->
+      <div class="information">
+        <div class="container mx-auto flex items-center">
+          <div class="content-wrapper flex-1 pr-10">
+            <h2 class="tittle mb-5">Everyone can be a <br> chef in their own kitchen</h2>
+            <p class="description leading-9 mb-14 xl:pr-10">Everyone can be a chef in their own kitchen. Discover quick and delicious recipes, including spicy chicken wings and more. Perfect for easy , flavorful meals.</p>
+            <button class="dark-btn">Learn More</button>
+          </div>
+          <div class="image-wrapper flex-1">
+            <span class="icon vegan"><img src="./images/vegan.png " alt="vegan"></span>
+            <span class="icon tomato"><img src="./images/tomato.png" alt="tomato"></span>
+            <span class="icon onion"><img src="./images/onion.png" alt="onion"></span>
+            <span class="icon meat"><img src="./images/meat.png" alt="meat"></span>
+            <img src="./images/main-chef.png" alt="chef">
+          </div>
+        </div>
+      </div>
+    <!-- information -->
+  <!-- blog -->
+      <div class="blogs" id="blogs">
+        <div class="container mx-auto">
+          <div class="heading text-center lg:w-max">
+            <h3 class="tittle mb-5">Check out @FoodFashion on instagram</h3>
+            <p class="description w-5/6 mx-auto">Everyone can be a chef in their own kitchen. Quick , delicious meals and spicy chicken wings. Check out @FoodFashion on instagram!</p>
+          </div>
+          <div class="posts_holder mb-16">
+            <div class="post"><img src="./images/post.jpg" alt="post"></div>
+            <div class="post"><img src="./images/post-2.jpg" alt="post"></div>
+            <div class="post"><img src="./images/post-3.jpg" alt="post"></div>
+            <div class="post"><img src="./images/post-4.jpg" alt="post"></div>
+          </div>
+          <div class="dark-btn w-max mx-auto flex items-center">Visit Our Instagram <i class="fa-brands fa-instagram ml-3 icon"></i></div>
+        </div>
+      </div>
+    <!-- End blog -->
+  <!-- special-dishes -->
+      <div class="special-dishes">
+        <div class="container mx-auto">
+          <div class="heading w-full flex items-center gap-6 md:gap-12">
+            <h3 class="tittle flex-1 md:pr-8 ">Try this delicious recipe to make your day</h3>
+            <p class="description flex-1 leading-8">Try this delicious recipe to make your day! Check out @FoodFashion on instagram! for more inspiration</p>
+          </div>
+          <div class="cards_holder">
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-1.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Creamy pomegranate with sweet souse</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> Dessert</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-2.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Cheesy Spaghetti with tomato souse</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> Lunch</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-3.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">fresh salad with cantaloupe melon prosciutto sof</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-4.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Harvest Salad with Pumpkin and Mushrooms</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-5.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle"> mediterranean diet dish with mix of greek salad </p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-6.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Zesty Mediterranean Tuna Pasta Salad Delight </p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-7.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Mediterranean Salad with Olives and Cheese</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-8.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Roasted Beet and Potato Salad Medley</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-holder"><img src="./images/card-9.jpg" alt=""></div>
+              <div class="fav-btn"><i class="fa-solid fa-heart"></i></div>
+              <p class="card-tittle">Grilled Octopus Salad with Tomatoes and Greens</p>
+              <div class="label_section">
+                <div class="label"> <i class="fa-solid fa-clock icon"></i> 30 Minutes</div>
+                <div class="label"> <i class="fa-solid fa-utensils icon"></i> sweet</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     <!-- end special-dishes -->
+    <!-- contact us -->
+      <div class="contact-us" id="contactUs">
+        <div class="container mx-auto relative">
+          <div class="heading mx-auto text-center">
+            <h3 class="tittle mb-8">Deliciousness to your inbox</h3>
+            <p class="description w-2/4 mx-auto leading-10">Deliciousness delivered straight to your inbox. Try this recipe to make your day! check out @FoodFashion on instagram for more inspiration</p>
+          </div>
+          <div class="form-wrapper mx-auto w-max lg:w-2/5 flex relative">
+            <input  type="email" name="email" id="email" placeholder="Your Email Address...." class="flex-1">
+            <button type="button" class="dark-btn">Subscribe</button>
+          </div>
+          <div class="img-wrapper dish "><img src="./images/dish.png" alt="dish"></div>
+          <div class="img-wrapper salad "> <img src="./images/vegetables.png" alt="vegetable"></div>
+        </div>
+      </div>
+      <!-- end contact us -->
+    <!-- footer -->
+      <div class="footer" id="aboutUs">
+        <div class="container mx-auto">
+          <div class="footer-content flex justify-between items-center mb-10">
+            <div class="footer-info">
+              <h2 class="footer-title font-bold mb-4">FoodFashion.</h2>
+              <p class="footer-description">
+                Deliciousness delivered straight to your inbox.
+              </p>
+            </div>
+            <div class="footer-links">
+              <ul class="flex font-medium flex-wrap ">
+                <li><a href="#" class="mx-4 inline-block">Home</a></li>
+                <li><a href="#recipes" class="mx-4 inline-block">Recipes</a></li>
+                <li><a href="#blogs" class="mx-4 inline-block">Blog</a></li>
+                <li><a href="#contactUs" class="mx-4 inline-block">Contact</a></li>
+                <li><a href="#aboutUs" class="mx-4 inline-block">About us</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="my-6 border-gray-300">
+          <div class="footer-social space-x-10 flex justify-end pr-4 py-10">
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+       <!-- end footer -->
+  <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.card{
+  padding: 1.3rem;
+  @include gradient($light_blue , .3 , 10% , 100%);
+  border-radius: 2em;
+  position: relative;
+  .img-holder{
+    border-radius: 2em;
+    img{
+      border-radius: 2em;
+      max-width: 100%;
+    }
+  }
+  .card-tittle{
+    font-size: $L_size;
+    font-weight: 500;
+    margin-block: 1em;
+    color: $black;
+  }
+  .label_section{
+    display: flex;
+    .label{
+      font-size: $small_size;
+      color: $sub_white;
+      padding-inline: .3em;
+      margin-right: 2em;
+      background-color: transparent;
+      .icon{
+        color: $black;
+        margin-right: .4em;
+      }
+    }
+  }
+}

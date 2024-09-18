@@ -1,0 +1,25 @@
+// label
+@mixin label ($background : $light_white){
+  padding: .7em 1em;
+  border-radius: 2rem;
+  background-color: $background;
+}
+
+// circle
+@mixin circle ($dimensions: 2rem){
+  width: $dimensions;
+  height: $dimensions;
+  border-radius: 50%;
+}
+
+// btn 
+@mixin btn ($padding-block: 1em , $padding-inline: 1.6em){
+  padding-block: $padding-block;
+  padding-inline: $padding-inline;
+  border-radius: 1.2em;
+  cursor: pointer;
+}
+// gradient
+@mixin gradient ($color: $light_blue , $opacity: 1 , $start: 5% , $end: 60%){
+  background: linear-gradient(360deg, rgba($color , $opacity) $start , transparent $end);
+}

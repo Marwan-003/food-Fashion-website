@@ -1,0 +1,7 @@
+
+
+.label{
+  @include label();
+  background-color: rgba( $off_white, .5);
+  width: max-content;
+}

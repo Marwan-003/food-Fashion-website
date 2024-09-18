@@ -1,0 +1,16 @@
+.special-dishes{
+  .container{
+    .heading{
+     @media (max-width:$breakpoint-md) {
+      flex-direction: column;
+      text-align: center;
+     }
+    }
+    .cards_holder{
+      @include grid();
+      .card{
+        background: transparent;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+// dark btn 
+.dark-btn{
+  color: white;
+  background-color: $black;
+  @include btn;
+}
+.btn{
+  color: $black;
+  background-color: rgba($light_blue , .4);
+  @include btn;
+  max-width: max-content;
+}
+.fav-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: $small_size;
+  color: $dark_white;
+  cursor: pointer;
+  background-color: $light_white;
+  padding: .5em;
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  transition: $transition_duration;
+}
+.fav-btn.fav{
+  color: rgb(255 78 78);
+}

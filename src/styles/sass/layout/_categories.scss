@@ -1,0 +1,51 @@
+.categories{
+  margin-block: $section_margin;
+  .categories_head{
+    margin-bottom: $heading_margin;
+    .tittle{
+      font-weight: bold;
+      font-size: $xxL_size;
+    }
+    .btn{
+      font-weight: 500;
+      font-size: $small_size;
+    }
+  }
+  .categories_info{
+    .box{
+      min-width: 8rem;
+      border-radius: 1rem;
+      @include gradient(var(--color) , .5 , 5% , 45%);
+      .img_holder{
+        position: relative;
+        text-align: center;
+        &::before{
+          content:'';
+          background: var(--imgSrc);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: absolute;
+          width: 7rem;
+          height: 7rem;
+          top: 1rem;
+          left: 1rem;
+          z-index: 1;
+          filter: blur(20px);
+          opacity: .7;
+        }
+        img{
+          display: inline-block;
+          position: relative;
+          max-width: 7rem;
+          z-index: 5;
+         
+        }
+      }
+      p{
+        font-weight: 500;
+        font-size: $small_size;
+      }
+    }
+  }
+}

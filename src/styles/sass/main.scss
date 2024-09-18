@@ -1,0 +1,28 @@
+ // Base 
+ @import './base/global';
+ // Helpers
+ @import './helpers/variables';
+ @import './helpers/typography';
+ @import './helpers/colors';
+ @import './helpers/functions';
+ @import './helpers/mixins';
+ @import './helpers/animations';
+
+// components
+@import './components/btns';
+@import './components/label';
+@import './components/heading';
+@import './components/card';
+// layout
+@import './layout/grid';
+@import './layout/header';
+@import './layout/footer';
+@import './layout/categories';
+@import './layout/information';
+// pages
+@import './pages/landing';
+@import './pages/recipes';
+@import './pages/blogs';
+@import './pages/special_dishes';
+@import './pages/contactUs';
+

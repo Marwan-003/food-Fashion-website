@@ -1,0 +1,80 @@
+.information{
+  margin-block:$section_margin ;
+  .container{
+    @media (max-width:$breakpoint-lg) {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+    .content-wrapper{
+      @media (max-width:$breakpoint-lg) {
+        padding: 5rem 0 0 0;
+      }
+      .tittle{
+        font-size: $xxxxL_size;
+        font-weight: bold;
+        text-wrap: balance;
+      }
+      .description{
+        font-size: calc($small_size + .1rem);
+        font-weight: 400;
+        color: $sub_white;
+      }
+      .dark-btn{
+        font-size: $small_size;
+        @include btn(1.5em , 3.5em);
+      }
+    }
+    .image-wrapper{
+      position: relative;
+      @media (max-width:$breakpoint-lg) {
+        max-width: 40rem;
+      }
+      &::before{
+        content: "";
+        position: absolute;
+        width: 90%;
+        height: 80%;
+        bottom: 0;
+        right: 0;
+        border-radius: 3rem;
+        @include gradient($light_blue , .5 , 10% , 100%);
+        z-index: -1;
+      }
+      .icon{
+        position: absolute;
+        max-width: 5rem;
+        &.vegan{
+          top: 30%;
+          right: 5%;
+        }
+        &.tomato{
+          bottom: 10%;
+          left: 0;
+        }
+        &.onion{
+          top: 5%;
+          right: 20%;
+          max-width: 3.5rem;
+        }
+        &.meat{
+          max-width: 7rem;
+          top: 30%;
+          left: 10%;
+        }
+        @media (max-width:$breakpoint-sm) {
+          max-width: 3rem;
+          &.onion{
+            max-width: 2rem;
+          }
+          &.meat{
+            max-width: 4rem;
+          }
+          &.tomato{
+            max-width: 2rem;
+          }
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+@import './variables';
+
+// font families
+:root {
+  --main-font: "Rubik", sans-serif;
+  --head-font: "Sansita Swashed", system-ui;
+  --logo-font: "Yellowtail", cursive;
+
+  --xxxxL-size: 3.5rem;
+  --xxxL-size: 3rem;
+  --xxL-size: 2.5rem;
+  --xL-size: 2.062rem;
+  --L-size: 1.750rem;
+  --mid-size: 1.438rem;
+  --normal-size: 1.28rem;
+  --small-size: 1.188rem;
+  --xsmall-size: 1.000rem;
+  --xxsmall-size: 0.812rem;
+  --xxxsmall-size: 0.688rem;
+}
+
+// font families
+$main_font: var(--main-font);
+$head_font: var(--head-font);
+$logo_font: var(--logo-font);
+
+
+// font_sizes 
+$xxxxL_size: var(--xxxxL-size);
+$xxxL_size: var(--xxxL-size);
+$xxL_size: var(--xxL-size);
+$xL_size: var(--xL-size);
+$L_size: var(--L-size);
+$mid_size: var(--mid-size);
+$normal_size: var(--normal-size);
+$small_size: var(--small-size);
+$xsmall_size: var(--xsmall-size);
+$xxsmall_size: var(--xxsmall-size);
+$xxxsmall_size: var(--xxxsmall-size);
+
+
+@media (max-width:$breakpoint-xl) {
+  :root{
+  --xxxxL-size: 3.3rem;
+  --xxxL-size: 2.8rem;
+  --xxL-size: 2.3rem;
+  --xL-size: 1.7rem;
+  --L-size: 1.550rem;
+  --mid-size: 1.238rem;
+  --normal-size: 1.08rem;
+  --small-size: 0.988rem;
+  --xsmall-size: 0.800rem;
+  --xxsmall-size: 0.612rem;
+  --xxxsmall-size: 0.488rem;
+  }
+}
+@media (max-width:$breakpoint-lg) {
+  :root{
+  --xxxxL-size: 2.3rem;
+  --xxxL-size: 2.3rem;
+  --xxL-size: 2.1rem;
+  --xL-size: 1.6rem;
+  --L-size: 1.5rem;
+  --mid-size: 1.2rem;
+  --normal-size: 1.08rem;
+  --small-size: 0.988rem;
+  --xsmall-size: 0.800rem;
+  --xxsmall-size: 0.612rem;
+  --xxxsmall-size: 0.488rem;
+  }
+}
+@media (max-width:$breakpoint-md) {
+  :root{
+  --xxxxL-size: 2.1rem;
+  --xxxL-size: 2rem;
+  --xxL-size: 1.8rem;
+  --xL-size: 1.6rem;
+  --L-size: 1.5rem;
+  --mid-size: 1.2rem;
+  --normal-size: 1.08rem;
+  --small-size: 0.988rem;
+  --xsmall-size: 0.800rem;
+  --xxsmall-size: 0.612rem;
+  --xxxsmall-size: 0.488rem;
+  }
+}

@@ -1,0 +1,22 @@
+.blogs{
+  margin-block: $section_margin;
+  padding-block: 4rem;
+  @include gradient($light_blue , .4 , 10% , 100%);
+  .container{
+    .posts_holder{
+      @include grid(15rem);
+      .post{
+        img{
+          height: 100%;
+        }
+      }
+    }
+    .dark-btn{
+      font-size: $small_size;
+      @include btn(1.3em , 2.2em);
+      .icon{
+        font-size: $L_size;
+      }
+    }
+  }
+}
