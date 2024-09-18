@@ -1,6 +1,0 @@
-#  produciton version
-/.vscode
-/node_modules
-/src
-*.json
-*.config.*
