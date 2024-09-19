@@ -47,7 +47,7 @@ $heading_margin: var(--heading-margin);
 };
 @media (max-width:$breakpoint-sm) {
   :root{
-    --slider-width: 29rem;
-    --slider-imgs-size: 8.5rem;
+    --slider-width: 24rem;
+    --slider-imgs-size: 8rem;
   }
 };

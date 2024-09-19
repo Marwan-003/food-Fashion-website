@@ -19,6 +19,11 @@
           opacity: .5;
         }
       }
+      @media (max-width:380px) {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
     }
     .img-wrapper{
       position: absolute;
