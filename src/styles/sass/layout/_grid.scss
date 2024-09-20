@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit , minmax($col-width , 1fr));
   gap: $gap;
-  padding-inline: 2rem;
+  padding-inline: 1rem;
   @media (max-width:$breakpoint-lg) {
     grid-template-columns: repeat(auto-fit , minmax(calc($col-width - 5rem) , 1fr));
   }

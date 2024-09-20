@@ -5,11 +5,6 @@
   .container{
     .posts_holder{
       @include grid(15rem);
-      .post{
-        img{
-          height: 100%;
-        }
-      }
     }
     .dark-btn{
       font-size: $small_size;

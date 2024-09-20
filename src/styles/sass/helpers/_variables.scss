@@ -51,3 +51,19 @@ $heading_margin: var(--heading-margin);
     --slider-imgs-size: 8rem;
   }
 };
+@media (max-width:390px) {
+  :root{
+    --slider-width: 18rem;
+    --slider-imgs-size: 6.5rem;
+  }
+};
+
+// container padding for small screens
+.container{
+  @media (min-width: $breakpoint-md) {
+      padding-inline: 2rem;
+    }
+  @media (max-width: $breakpoint-sm) {
+      padding-inline: 1rem;
+    }
+}

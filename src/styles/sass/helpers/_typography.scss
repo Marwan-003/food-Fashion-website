@@ -84,3 +84,18 @@ $xxxsmall_size: var(--xxxsmall-size);
   --xxxsmall-size: 0.488rem;
   }
 }
+@media (max-width:$breakpoint-sm) {
+  :root{
+    --xxxxL-size: 2.058rem;
+    --xxxL-size: 1.96rem;  
+    --xxL-size: 1.764rem; 
+    --xL-size: 1.568rem;   
+    --L-size: 1.47rem;   
+    --mid-size: 1.176rem;   
+    --normal-size: 1.0584rem; 
+    --small-size: 0.96824rem; 
+    --xsmall-size: 0.784rem;  
+    --xxsmall-size: 0.59976rem; 
+    --xxxsmall-size: 0.47824rem; 
+  }
+}
