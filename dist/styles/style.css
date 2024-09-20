@@ -914,7 +914,6 @@ html {
 }
 .landing-page .main-content .slider {
   position: relative;
-  overflow: hidden;
   height: calc(var(--slider-width) / 2);
 }
 .landing-page .main-content .slider .arrow {
