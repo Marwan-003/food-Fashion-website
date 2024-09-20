@@ -141,7 +141,6 @@
     }
     .slider{
       position: relative;
-      overflow: hidden;
       height: calc(var(--slider-width) / 2);
       // active section uncomment it if needed
       // &::before{
