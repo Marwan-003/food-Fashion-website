@@ -58,12 +58,7 @@ $heading_margin: var(--heading-margin);
   }
 };
 
-// container padding for small screens
+// container padding 
 .container{
-  @media (min-width: $breakpoint-md) {
-      padding-inline: 2rem;
-    }
-  @media (max-width: $breakpoint-sm) {
-      padding-inline: 1rem;
-    }
+    padding-inline: 1rem ;
 }

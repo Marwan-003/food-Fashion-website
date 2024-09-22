@@ -6,6 +6,10 @@
     padding-top: 2rem;
     background-color: rgba($light_blue , .4);
     border-radius: 5rem;
+    .description{
+      position: relative;
+      z-index: 10;
+    }
     .form-wrapper{
       z-index: 2;
       background-color: $light_white;
@@ -19,7 +23,7 @@
           opacity: .5;
         }
       }
-      @media (max-width:380px) {
+      @media (max-width:450px) {
         display: flex;
         flex-direction: column;
         gap: 2rem;
